@@ -11,9 +11,9 @@
     ],
     // Choose the order of the modules
     "modules-left": [
-        "wlr/taskbar"
+        "wlr/taskbar",
         //"group/quicklinks",
-        //"hyprland/window"
+        "hyprland/window"
     ],
     "modules-center": [
         "hyprland/workspaces"
