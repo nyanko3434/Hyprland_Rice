@@ -1,0 +1,65 @@
+ignore-empty-password
+daemonize
+
+# Background
+image=/home/nyanko/.config/hypr/wallpapers/street.jpeg
+#fade-in=0.15
+#effect-blur=5x5
+effect-scale=1
+
+# Clock (swaylock-effects only)
+clock
+timestr=%R
+datestr=%a, %e %B
+
+# Fonts
+font=JetBrainsMonoNL Nerd Font Mono
+font-size=45
+
+# Indicator
+indicator
+indicator-radius=120
+indicator-thickness=10
+indicator-caps-lock
+
+# Colors
+# Highlight when pressing keys / backspace
+key-hl-color=96CDFB
+bs-hl-color=96CDFB
+caps-lock-key-hl-color=F8BD96
+caps-lock-bs-hl-color=F8BD96
+
+# Separator (transparent)
+separator-color=00000000
+
+# Inside is always transparent
+inside-color=00000000
+inside-clear-color=00000000
+inside-caps-lock-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+
+# Ring colors
+ring-color=96CDFB55
+ring-clear-color=96CDFB55
+ring-ver-color=96CDFB55
+ring-wrong-color=EBCB8B
+ring-caps-lock-color=F8BD96
+
+# Line colors
+line-color=96CDFB00
+line-clear-color=96CDFB00
+line-ver-color=96CDFB00
+line-wrong-color=EBCB8B00
+line-caps-lock-color=F8BD9600
+
+# Text colors
+text-color=96CDFBFF 
+text-clear-color=96CDFBFF
+text-ver-color=96CDFBFF
+text-wrong-color=EBCB8BFF
+text-caps-lock-color=F8BD96FF
+
+# Optional: disable default caps lock text
+disable-caps-lock-text
+
