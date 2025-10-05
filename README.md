@@ -59,7 +59,7 @@ Here are a few images from my Hyprland setup:
 ![Window Layout](images/window.png)
 
 ### 🔔 Waybar
-![Waybar Preview]<img src="images/waybar.png" width="700">
+![Waybar Preview](images/waybar.png)<img src="images/waybar.png" width="700">
 
 ### 🐈 Terminal (Kitty)
 ![Terminal Preview](images/terminal.png)
