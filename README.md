@@ -69,3 +69,26 @@ Here are a few images from my Hyprland setup:
 
 ### 🔒 Swaylock
 ![Swaylock Preview](images/swaylock.png)
+
+## 🛠 Installation / Bootstrap
+
+To set up your config on a new machine:
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/Hyprland_Rice.git ~/Hyprland_Rice
+cd ~/Hyprland_Rice
+
+# Run the install / bootstrap script (for example using stow)
+./stow.sh
+```
+Note :
+Requiers stow package
+For Arch Users
+```bash
+yay -S stow
+```
+Modify stow.sh according to location of clone repo
+```text
+stow -d [Clone repo location] -t ~/ dotfiles
+```
