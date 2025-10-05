@@ -58,10 +58,10 @@ Here are a few images from my Hyprland setup:
 ### 🧠 Hyprland Overview
 ![Window Layout](images/window.png)
 
-### 🧰 Waybar
-![Waybar Preview](images/waybar.png)
+### 🔔 Waybar
+![Waybar Preview]<img src="images/waybar.png" width="700">
 
-### 🐚 Terminal (Kitty)
+### 🐈 Terminal (Kitty)
 ![Terminal Preview](images/terminal.png)
 
 ### 🔍 Wofi Menu
