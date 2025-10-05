@@ -47,6 +47,7 @@ Hyprland_Rice/
 │
 ├── README.md
 └── stow.sh
+```
 
 ---
 
