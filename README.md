@@ -55,3 +55,17 @@ Hyprland_Rice/
 
 Here are a few images from my Hyprland setup:
 
+### 🧠 Hyprland Overview
+![Window Layout](images/window.png)
+
+### 🧰 Waybar
+![Waybar Preview](images/waybar.png)
+
+### 🐚 Terminal (Kitty)
+![Terminal Preview](images/terminal.png)
+
+### 🔍 Wofi Menu
+![Wofi Preview](images/wofi.png)
+
+### 🔒 Swaylock
+![Swaylock Preview](images/swaylock.png)
