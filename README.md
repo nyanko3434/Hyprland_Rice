@@ -83,7 +83,7 @@ cd ~/Hyprland_Rice
 ./stow.sh
 ```
 Note :
-Requiers stow package
+Requiers stow package<br>
 For Arch Users
 ```bash
 yay -S stow
