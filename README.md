@@ -7,6 +7,7 @@ These dotfiles let me version, sync, and deploy my setup easily across machines.
 
 ## 📁 Repository Structure
 
+```text
 Hyprland_Rice/
 ├── dotfiles/
 │ └── .config/
@@ -46,7 +47,7 @@ Hyprland_Rice/
 │
 ├── README.md
 └── stow.sh
-
+```
 ---
 
 ## 🖼 Screenshots / Preview
