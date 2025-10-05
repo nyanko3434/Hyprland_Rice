@@ -56,19 +56,17 @@ Hyprland_Rice/
 Here are a few images from my Hyprland setup:
 
 ### 🧠 Hyprland Overview
-![Window Layout](images/window.png)
+![Window Layout](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/window.png?raw=true)
 
 ### 🔔 Waybar
 ![Waybar Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/waybar.png?raw=true)
 
 ### 🐈 Terminal (Kitty)
-![Terminal Preview](images/terminal.png)
+![Terminal Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/terminal.png?raw=true)
 
 ### 🔍 Wofi Menu
-![Wofi Preview](images/wofi.png)
+![Wofi Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/wofi.png?raw=true)
 
-### 🔒 Swaylock
-![Swaylock Preview](images/swaylock.png)
 
 ## 🛠 Installation / Bootstrap
 
