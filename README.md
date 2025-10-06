@@ -19,6 +19,9 @@ Hyprland_Rice/
 │ │ ├── hyprpaper.conf
 │ │ └── hyprsunset.conf
 │ │
+│ ├── keyd/
+│ │ └── default.conf
+│ │
 │ ├── kitty/
 │ │ ├── GruvBox_Darkhard.conf
 │ │ ├── kitty.conf
