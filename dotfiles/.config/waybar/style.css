@@ -32,6 +32,7 @@ menu {
 #custom-gpuinfo,
 #memory,
 #disk,
+#battery,
 #temperature,
 #idle_inhibitor,
 #pulseaudio,
@@ -66,7 +67,7 @@ menu {
 
 /* -- Specific styles -- */
 
-/* Modules left */
+
 #custom-archicon {
   font-size: 20px;
   color: #89B4FA;
@@ -98,7 +99,12 @@ menu {
   background: #F8BD96;
 }
 
-/* Modules center */
+#battery {
+  background: #F28FAD;
+}
+
+
+
 #workspaces {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -126,9 +132,7 @@ menu {
   color: #89B4FA;
 }
 
-#workspaces button.active:hover {}
 
-/* Modules right */
 #taskbar {
   background: transparent;
   border-radius: 10px;
