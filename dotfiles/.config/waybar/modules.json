@@ -154,8 +154,8 @@
         },
         "format": "{capacity}% {icon}",
         "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% {icon}󱐋 ",
-        "format-plugged": "{capacity}% {icon} ",
+        "format-charging": "{capacity}% {icon}󱐋",
+        "format-plugged": "{capacity}% {icon}",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "o",
