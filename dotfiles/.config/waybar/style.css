@@ -76,8 +76,21 @@ menu {
   padding-right: 17px;
 }
 
-#power-profiles-daemon{
-  background: #A6E3A1;
+#power-profiles-daemon.performance {
+  background: #E06C75;
+}
+
+#power-profiles-daemon.balanced {
+  background: #E5C07B;
+}
+
+#power-profiles-daemon.power-saver {
+  background: #98C379;
+}
+
+/* fallback / default */
+#power-profiles-daemon {
+  background: #3E4452;
 }
 
 #clock {
