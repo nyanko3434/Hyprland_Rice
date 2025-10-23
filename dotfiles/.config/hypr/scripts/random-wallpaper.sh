@@ -7,10 +7,10 @@ CURRENT_WALL=$(hyprctl hyprpaper listloaded)
 STATE_FILE="/tmp/hyprpaper_${FOCUSED_MONITOR}.last"
 
 # If last wallpaper exists, unload it
-#if [[ -f "$STATE_FILE" ]]; then
-#    LAST_WALL=$(<"$STATE_FILE")
-#    hyprctl hyprpaper unload "$LAST_WALL"
-#fi
+if [[ -f "$STATE_FILE" ]]; then
+   LAST_WALL=$(<"$STATE_FILE")
+   hyprctl hyprpaper unload "$LAST_WALL"
+fi
 
 # Pick a new random wallpaper
 WALLPAPER=$(find "$WALLPAPER_DIR" -type f ! -name "$(basename "$CURRENT_WALL")" | shuf -n 1)
