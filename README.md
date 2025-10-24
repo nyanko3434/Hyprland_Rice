@@ -10,43 +10,44 @@ These dotfiles let me version, sync, and deploy my setup easily across machines.
 ```text
 Hyprland_Rice/
 ├── dotfiles/
-│ └── .config/
-│ ├── hypr/
-│ │ ├── scripts/
-│ │ ├── wallpapers/
-│ │ ├── hypridle.conf
-│ │ ├── hyprland.conf
-│ │ ├── hyprpaper.conf
-│ │ └── hyprsunset.conf
-│ │
-│ ├── keyd/
-│ │ └── default.conf
-│ │
-│ ├── kitty/
-│ │ ├── GruvBox_Darkhard.conf
-│ │ ├── kitty.conf
-│ │ ├── kitty.conf.bak
-│ │ └── kitty.conf.original
-│ │
-│ ├── swaylock/
-│ │ └── config
-│ │
-│ ├── waybar/
-│ │ ├── scripts/
-│ │ ├── config
-│ │ ├── modules.json
-│ │ ├── power_menu.xml
-│ │ └── style.css
-│ │
-│ ├── wlogout/
-│ │ ├── icons/
-│ │ ├── colors.css
-│ │ ├── layout
-│ │ └── style.css
-│ │
-│ └── wofi/
-│ ├── config
-│ └── style.css
+│   ├── .config/
+│   │   ├── hypr/
+│   │   │   ├── scripts/
+│   │   │   ├── wallpapers/
+│   │   │   ├── hypridle.conf
+│   │   │   ├── hyprland.conf
+│   │   │   ├── hyprpaper.conf
+│   │   │   └── hyprsunset.conf
+│   │   │
+│   │   ├── kitty/
+│   │   │   ├── GruvBox_Darkhard.conf
+│   │   │   ├── kitty.conf
+│   │   │   ├── kitty.conf.bak
+│   │   │   └── kitty.conf.original
+│   │   │
+│   │   ├── swaylock/
+│   │   │   └── config
+│   │   │
+│   │   ├── waybar/
+│   │   │   ├── scripts/
+│   │   │   ├── config
+│   │   │   ├── modules.json
+│   │   │   ├── power_menu.xml
+│   │   │   └── style.css
+│   │   │
+│   │   ├── wlogout/
+│   │   │   ├── icons/
+│   │   │   ├── colors.css
+│   │   │   ├── layout
+│   │   │   └── style.css
+│   │   │
+│   │   └── wofi/
+│   │       ├── config
+│   │       └── style.css
+│   │
+│   └── etc/
+│       └── keyd/
+│           └── default.conf
 │
 ├── README.md
 └── stow.sh
@@ -92,4 +93,5 @@ yay -S stow
 Modify stow.sh according to location of clone repo
 ```text
 stow -d [Clone repo location] -t ~/ dotfiles
+sudo ln -s [Clone repo location]/dotfiles/etc/keyd/default.conf /etc/keyd/default.conf
 ```
