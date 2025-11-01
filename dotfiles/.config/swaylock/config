@@ -43,21 +43,21 @@ inside-wrong-color=00000000
 ring-color=96CDFB55
 ring-clear-color=96CDFB55
 ring-ver-color=96CDFB55
-ring-wrong-color=EBCB8B
+ring-wrong-color=DD1717
 ring-caps-lock-color=F8BD96
 
 # Line colors
 line-color=96CDFB00
 line-clear-color=96CDFB00
 line-ver-color=96CDFB00
-line-wrong-color=EBCB8B00
+line-wrong-color=DD171700
 line-caps-lock-color=F8BD9600
 
 # Text colors
 text-color=96CDFBFF 
 text-clear-color=96CDFBFF
 text-ver-color=96CDFBFF
-text-wrong-color=EBCB8BFF
+text-wrong-color=DD1717FF
 text-caps-lock-color=F8BD96FF
 
 # Optional: disable default caps lock text
