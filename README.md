@@ -45,9 +45,12 @@ Hyprland_Rice/
 │   │       ├── config
 │   │       └── style.css
 │   │
-│   └── etc/
-│       └── keyd/
-│           └── default.conf
+│   └── .themes/
+│
+│
+├── etc/
+│   └── keyd/
+│       └── default.conf
 │
 ├── README.md
 └── stow.sh
