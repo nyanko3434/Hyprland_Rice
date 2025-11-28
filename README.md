@@ -98,3 +98,9 @@ Modify stow.sh according to location of clone repo
 stow -d [Clone repo location] -t ~/ dotfiles
 sudo ln -s [Clone repo location]/dotfiles/etc/keyd/default.conf /etc/keyd/default.conf
 ```
+
+## 📦 Installed Packages
+
+Full list of explicitly installed packages is available in:
+
+➡️ [`packages.txt`](packages.txt)
