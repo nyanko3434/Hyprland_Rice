@@ -47,7 +47,8 @@
            "nwg-look":"",
            "com.obsproject.Studio":"󰐩",
            "nvidia-settings":"󰾲",
-           "pgadmin4":"󰟆"
+           "pgadmin4":"󰟆",
+           "Docker Desktop":"󰡨"
         }
     },
 
@@ -118,9 +119,18 @@
         "format-alt": "{:%Y-%m-%d}"
         // END CLOCK FORMAT
     },
+
+    "custom/hardware_toggle": {
+        "exec": "~/.config/waybar/scripts/hardware_toggle.sh",
+        "return-type": "json",
+        "interval": 1,
+        "on-click": "~/.config/waybar/scripts/toggle_hardware.sh",
+        "signal": 8
+    },
     "cpu": {
         "format": "{usage}% ",
-        "tooltip": false
+        "tooltip": true
+        // "tooltip-format": "CPU Usage: {usage}% Freq: {freq}MHz Temp: {temp}°C"
     },
     "memory": {
         "format": "{}% "
