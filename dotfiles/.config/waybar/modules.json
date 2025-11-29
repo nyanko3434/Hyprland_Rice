@@ -48,7 +48,8 @@
            "com.obsproject.Studio":"󰐩",
            "nvidia-settings":"󰾲",
            "pgadmin4":"󰟆",
-           "Docker Desktop":"󰡨"
+           "Docker Desktop":"󰡨",
+           "nm-connection-editor":"󰣺"
         }
     },
 
@@ -200,8 +201,8 @@
         "tooltip-format-linked": "{ifname} (No IP)",
         "tooltip-format-disconnected": "No network connection",
         "tooltip-format-disabled": "Network disabled",
-        "on-click-middle": "rfkill toggle wlan"
-        // "on-click-leftnetwork-manager-applet": "nmtui"
+        "on-click-middle": "rfkill toggle wlan",
+        "on-click-right": "~/.config/waybar/scripts/toggle-nm-connection-editor.sh"
         // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 
