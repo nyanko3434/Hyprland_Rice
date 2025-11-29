@@ -16,7 +16,8 @@ window#waybar.hidden {
 
 menu {
     margin-top: 100px;   /* pushes the menu down by 10px */
-    margin-left: 0px;   /* optional horizontal offset */
+    margin-left: 0px;
+    margin-right: 0px;   /* optional horizontal offset */
     background: #1e1e2e;
     color: #c0caf5;
     border: 1px solid #414366;

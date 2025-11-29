@@ -189,12 +189,20 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this >
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} 󰈀",
+        "format-wifi": " ",
+        "format-ethernet": "󰈀",
+        "format-linked": "",
+        "format-disconnected": "󰖪",
+        "format-disabled": "󱚿",
         "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) 󰈀",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "tooltip-format-wifi": "{ifname} ({ipaddr}/{cidr})\nWifi-name: {essid}\nSignal: {signalStrength}%\nDownspeed: {bandwidthDownBits}\nUpspeed: {bandwidthUpBits}\nGateway: {gwaddr}",
+        "tooltip-format-ethernet": "{ifname} ({ipaddr}/{cidr})\nDownspeed: {bandwidthDownBits}\nUpspeed: {bandwidthUpBits}\nGateway: {gwaddr}",
+        "tooltip-format-linked": "{ifname} (No IP)",
+        "tooltip-format-disconnected": "No network connection",
+        "tooltip-format-disabled": "Network disabled",
+        "on-click-middle": "rfkill toggle wlan"
+        // "on-click-leftnetwork-manager-applet": "nmtui"
+        // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 
     "pulseaudio": {
