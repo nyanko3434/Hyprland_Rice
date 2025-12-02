@@ -141,7 +141,6 @@
         "exec": "~/.config/waybar/scripts/gpuinfo.sh",
         "return-type": "json",
         "format": "{percentage}% 󰾲",
-        //"format-icons": ["󰝦 ","󰪞 ","󰪟 ","󰪠 ","󰪡 ","󰪢 ","󰪣 ","󰪤 ","󰪥 "],
         "interval": 3
     },
 
@@ -152,11 +151,6 @@
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": ["󱩱", "", "", "", "","","󰈸", "󱗗"]
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{percent}% {icon}",
-        "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
         "states": {
