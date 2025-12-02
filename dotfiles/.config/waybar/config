@@ -25,7 +25,9 @@
         "network",
         "power-profiles-daemon",
         "group/hardware",
+        // @collapse_start
         // "custom/hardware-collapse",
+        // @collapse_end
         "keyboard-state",
         "sway/language",
         "battery",
@@ -42,15 +44,17 @@
             "custom/chrome",
         ]
     },
-    //Group Hardware
-    "group/hardware": {
-        "orientation": "horizontal",
-        "modules": [
-            "cpu",
-            "memory",
-            //"disk",
-            "custom/gpuinfo",
-            "temperature"
-        ]
-    },
+  
+//    // @hardware_start
+//    "group/hardware": {
+//        "orientation": "horizontal",
+//        "modules": [
+//            "cpu",
+//            "memory",
+//            "disk",
+//            "custom/gpuinfo",
+//            "temperature"
+//        ]
+//    },
+//    // @hardware_end
 }
