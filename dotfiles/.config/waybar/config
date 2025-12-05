@@ -24,10 +24,9 @@
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-        "group/hardware",
-        // @collapse_start
-        // "custom/hardware-collapse",
-        // @collapse_end
+//        //@hardware_start
+//        "group/hardware",
+//        //@hardware_end
         // "keyboard-state",
         // "sway/language",
         "battery",
@@ -45,16 +44,14 @@
         ]
     },
   
-//    // @hardware_start
-//    "group/hardware": {
-//        "orientation": "horizontal",
-//        "modules": [
-//            "cpu",
-//            "memory",
-//            "disk",
-//            "custom/gpuinfo",
-//            "temperature"
-//        ]
-//    },
-//    // @hardware_end
+    "group/hardware": {
+        "orientation": "horizontal",
+        "modules": [
+            "cpu",
+            "memory",
+            "disk",
+            "custom/gpuinfo",
+            "temperature"
+        ]
+    },
 }
