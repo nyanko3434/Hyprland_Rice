@@ -123,18 +123,18 @@
 
     "custom/hardware-collapse": {
         "format": "",
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
     "cpu": {
         "format": "{usage}% ",
         "tooltip": true,
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
     "memory": {
         "format": "{}% ",
         "tooltip": true,
-        "tooltip-format": "Memory Usage: {used}/{total} \nSwap Usage: {swapUsed}/{swapTotal}",
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "tooltip-format": "Memory Usage: {used}GiB/{total}GiB \nSwap Usage: {swapUsed}GiB/{swapTotal}GiB",
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
 
    "custom/gpuinfo": {
@@ -142,7 +142,7 @@
         "return-type": "json",
         "format": "{percentage}% 󰾲",
         "interval": 3,
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
 
     "temperature": {
@@ -152,13 +152,13 @@
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": ["󱩱", "", "", "", "","","󰈸", "󱗗"],
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
     "disk": {
         "format": "{percentage_used}% ",
         "tooltip-format": "/home: {used}/{total}",
         "path": "/home",
-        "on-click-right": "~/.config/waybar/scripts/toggle_hardware.sh"
+        "on-click-middle": "~/.config/waybar/scripts/toggle_hardware.sh"
     },
     "battery": {
         "states": {
