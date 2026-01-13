@@ -68,6 +68,9 @@ Here are a few images from my Hyprland setup:
 ### 🔔 Waybar
 ![Waybar Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/waybar.png?raw=true)
 
+#### Waybar with a Statistics Overlay
+![Waybar Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/waybar_with_overlay.png?raw=true)
+
 ### 🐈 Terminal (Kitty)
 ![Terminal Preview](https://github.com/nyanko3434/Hyprland_Rice/blob/main/Images/terminal.png?raw=true)
 
