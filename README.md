@@ -84,7 +84,7 @@ To set up your config on a new machine:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/Hyprland_Rice.git ~/Hyprland_Rice
+git clone https://github.com/nyanko3434/Hyprland_Rice.git ~/Hyprland_Rice
 cd ~/Hyprland_Rice
 
 # Run the install / bootstrap script (for example using stow)
