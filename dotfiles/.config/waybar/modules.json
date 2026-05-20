@@ -35,7 +35,7 @@
         ],
         "rewrite": {
            "google-chrome":"",
-           "kitty":"🐈",
+           "kitty":"",
            "code":"",
            "zotero":"󰬡",
            "cmake-gui":"",
