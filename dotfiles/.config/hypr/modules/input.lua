@@ -25,11 +25,11 @@ hl.config({
 hl.gesture({ fingers = 4, direction = "horizontal", action = "workspace"  })
 hl.gesture({ fingers = 3, direction = "swipe",      action = "move"       })
 hl.gesture({ fingers = 4, direction = "up",         action = "float"      })
-hl.gesture({ fingers = 4, direction = "down",       action = "fullscreen" })
+hl.gesture({ fingers = 4, direction = "pinchin",       action = "fullscreen" })
 -- NOTE: "tile" and "pinchout+close" have no equivalent in the 0.55 gesture API.
 -- 4-finger down → fullscreen is the closest to your old "tile" gesture.
 -- Uncomment below if you want 4-finger down to close instead:
--- hl.gesture({ fingers = 4, direction = "down", action = "close" })
+hl.gesture({ fingers = 4, direction = "pinchout", action = "close" })
 
 -- Per-device overrides
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/
