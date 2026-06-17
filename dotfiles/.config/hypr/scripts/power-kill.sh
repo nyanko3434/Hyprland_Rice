@@ -13,5 +13,6 @@ if [ "$active_window" -eq 0 ]; then
     fi
 else
     # Active window exists, kill it
-    hyprctl dispatch killactive
+    # hyprctl dispatch killactive
+    hyprctl dispatch 'hl.dsp.window.close()'
 fi
