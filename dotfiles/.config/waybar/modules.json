@@ -2,15 +2,15 @@
 
     //Modules configuration
      "hyprland/workspaces": {
-         "on-scroll-up": "hyprctl dispatch workspace r-1",
-         "on-scroll-down": "hyprctl dispatch workspace r+1",  
-         "on-click": "activate",
+         "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
+         "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",  
+         "on-click": "hyprctl dispatch 'hl.dsp.focus({ workspace = id })'",
         // "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
          "format": "{name}: {icon}",
          "format-icons": {
-            //"1": "",
+            // "1": "",
             //"2": "",
             //"3": "",
             //"4": "",
