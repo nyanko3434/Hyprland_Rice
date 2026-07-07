@@ -2,8 +2,8 @@
 * {
   border: none;
   font-family: "JetbrainsMono Nerd Font";
-  font-size: 10px;
-  min-height: 10px;
+  font-size: 8px;
+  min-height: 5px;
 }
 
 window#waybar {
@@ -42,7 +42,7 @@ menu {
 #pulseaudio_slider,
 #network,
 #language {
-  color: #161320;
+  /* color: #161320; */
   margin-top: 6px;
   margin-bottom: 6px;
   padding-left: 10px;
@@ -81,52 +81,52 @@ menu {
 }
 
 #power-profiles-daemon.performance {
-  background: #E06C75;
+  /* background: #E06C75; */
 }
 
 #power-profiles-daemon.balanced {
-  background: #E5C07B;
+  /* background: #E5C07B; */
 }
 
 #power-profiles-daemon.power-saver {
-  background: #98C379;
+  /* background: #98C379; */
 }
 
 /* fallback / default */
 #power-profiles-daemon {
-  background: #3E4452;
+  /* background: #3E4452; */
 }
 
 #clock {
-  background: #ABE9B3;
+  /* background: #ABE9B3; */
 }
 
 #custom-hardware-collapse {
-  background: #F3F0A8;
+  /* background: #F3F0A8; */
 }
 
 #cpu {
-  background: #96CDFB;
+  /* background: #96CDFB; */
 }
 
 #memory {
-  background: #DDB6F2;
+  /* background: #DDB6F2; */
 }
 
 #custom-gpuinfo{
-  background: #EBCB8B;
+  /* background: #EBCB8B; */
 }
 
 #disk {
-  background: #F5C2E7;
+  /* background: #F5C2E7; */
 }
 
 #temperature {
-  background: #F8BD96;
+  /* background: #F8BD96; */
 }
 
 #battery {
-  background: #F28FAD;
+  /* background: #F28FAD; */
 }
 
 
@@ -182,27 +182,27 @@ menu {
 }
 
 #idle_inhibitor {
-  background: #B5E8E0;
+  /* background: #B5E8E0; */
   padding-right: 15px;
 }
 
 #pulseaudio {
-  color: #1A1826;
-  background: #F5C2E7;
+  /* color: #1A1826; */
+  /* background: #F5C2E7; */
 }
 
 #pulseaudio_slider {
   color: #1A1826;
-  background: #E8A2AF;
+  /* background: #E8A2AF; */
 }
 
 #network {
-  background: #CBA6F7;
+  /* background: #CBA6F7; */
   padding-right: 13px;
 }
 
 #language {
-  background: #A6E3A1;
+  /* background: #A6E3A1; */
   padding-right: 15px;
 }
 
