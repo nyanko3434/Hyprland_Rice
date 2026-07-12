@@ -3,7 +3,7 @@
   border: none;
   font-family: "JetbrainsMono Nerd Font";
   font-size: 8px;
-  min-height: 5px;
+  min-height: 0px;
 }
 
 window#waybar {
@@ -22,7 +22,7 @@ menu {
     color: #c0caf5;
     border: 1px solid #414366;
     border-radius: 8px;
-    padding: 4px;
+    padding: 2px;
 }
 
 
@@ -43,8 +43,8 @@ menu {
 #network,
 #language {
   /* color: #161320; */
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
   transition: none;
@@ -56,8 +56,8 @@ menu {
 #cpu,
 #idle_inhibitor {
   margin-left: 5px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* Separation to the rigth */
@@ -66,15 +66,15 @@ menu {
 #temperature,
 #language {
   margin-right: 5px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /* -- Specific styles -- */
 
 
 #custom-archicon {
-  font-size: 20px;
+  font-size: 8px;
   color: #89B4FA;
   background: #161320;
   padding-right: 17px;
@@ -134,8 +134,8 @@ menu {
 #workspaces {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  margin: 6px 5px;
-  padding: 0px 6px;
+  margin: 2px 0px;
+  padding: 0px 3px;
 }
 
 #workspaces button {
