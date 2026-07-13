@@ -1,55 +1,27 @@
-@define-color	rosewater  #f4dbd6;
-@define-color	rosewater-rgb  rgb(244, 219, 214);
-@define-color	flamingo  #f0c6c6;
-@define-color	flamingo-rgb  rgb(240, 198, 198);
-@define-color	pink  #f5bde6;
-@define-color	pink-rgb  rgb(245, 189, 230);
-@define-color	mauve  #c6a0f6;
-@define-color	mauve-rgb  rgb(198, 160, 246);
-@define-color	red  #ed8796;
-@define-color	red-rgb  rgb(237, 135, 150);
-@define-color	maroon  #ee99a0;
-@define-color	maroon-rgb  rgb(238, 153, 160);
-@define-color	peach  #f5a97f;
-@define-color	peach-rgb  rgb(245, 169, 127);
-@define-color	yellow  #eed49f;
-@define-color	yellow-rgb  rgb(238, 212, 159);
-@define-color	green  #a6da95;
-@define-color	green-rgb  rgb(166, 218, 149);
-@define-color	teal  #8bd5ca;
-@define-color	teal-rgb  rgb(139, 213, 202);
-@define-color	sky  #91d7e3;
-@define-color	sky-rgb  rgb(145, 215, 227);
-@define-color	sapphire  #7dc4e4;
-@define-color	sapphire-rgb  rgb(125, 196, 228);
-@define-color	blue  #8aadf4;
-@define-color	blue-rgb  rgb(138, 173, 244);
-@define-color	lavender  #b7bdf8;
-@define-color	lavender-rgb  rgb(183, 189, 248);
-@define-color	text  #cad3f5;
-@define-color	text-rgb  rgb(202, 211, 245);
-@define-color	subtext1  #b8c0e0;
-@define-color	subtext1-rgb  rgb(184, 192, 224);
-@define-color	subtext0  #a5adcb;
-@define-color	subtext0-rgb  rgb(165, 173, 203);
-@define-color	overlay2  #939ab7;
-@define-color	overlay2-rgb  rgb(147, 154, 183);
-@define-color	overlay1  #8087a2;
-@define-color	overlay1-rgb  rgb(128, 135, 162);
-@define-color	overlay0  #6e738d;
-@define-color	overlay0-rgb  rgb(110, 115, 141);
-@define-color	surface2  #5b6078;
-@define-color	surface2-rgb  rgb(91, 96, 120);
-@define-color	surface1  #494d64;
-@define-color	surface1-rgb  rgb(73, 77, 100);
-@define-color	surface0  #363a4f;
-@define-color	surface0-rgb  rgb(54, 58, 79);
-@define-color	base  #24273a;
-@define-color	base-rgb  rgb(36, 39, 58);
-@define-color	mantle  #1e2030;
-@define-color	mantle-rgb  rgb(30, 32, 48);
-@define-color	crust  #181926;
-@define-color	crust-rgb  rgb(24, 25, 38);
+/* Tokyo Night palette */
+@define-color bg           #1a1b26;
+@define-color bg-dark      #16161e;
+@define-color bg-highlight #292e42;
+@define-color terminal-black #414868;
+@define-color fg           #c0caf5;
+@define-color fg-dark      #a9b1d6;
+@define-color comment      #565f89;
+@define-color blue         #7aa2f7;
+@define-color cyan         #7dcfff;
+@define-color blue1        #2ac3de;
+@define-color blue5        #89ddff;
+@define-color purple       #9d7cd8;
+@define-color magenta      #bb9af7;
+@define-color orange       #ff9e64;
+@define-color yellow       #e0af68;
+@define-color green        #9ece6a;
+@define-color teal         #1abc9c;
+@define-color red          #f7768e;
+
+/* Transparency levels — tweak the last alpha value (0.0–1.0) to taste */
+@define-color bg-t           alpha(@bg, 0.72);
+@define-color bg-highlight-t alpha(@bg-highlight, 0.55);
+@define-color terminal-black-t alpha(@terminal-black, 0.55);
 
 * {
   font-family: 'JetBrainsMonoNL Nerd Font Mono';
@@ -60,9 +32,9 @@
 window {
   margin: 0px;
   padding: 10px;
-  border: 0.16em solid @lavender;
-  border-radius: 0.1em;
-  background-color: @base;
+  border: 0.16em solid @purple;
+  border-radius: 8px;
+  background-color: @bg-t;
   animation: slideIn 0.5s ease-in-out both;
 }
 
@@ -82,7 +54,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
@@ -102,7 +74,7 @@ window {
   margin: 5px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
 }
 
 /* Scroll */
@@ -110,7 +82,7 @@ window {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: @base;
+  background-color: transparent;
 }
 
 /* Input */
@@ -118,9 +90,9 @@ window {
   margin: 5px 20px;
   padding: 10px;
   border: none;
-  border-radius: 0.1em;
-  color: @text;
-  background-color: @base;
+  border-radius: 8px;
+  color: @fg;
+  background-color: @bg-highlight-t;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
@@ -137,28 +109,31 @@ window {
 #text {
   margin: 5px;
   border: none;
-  color: @text;
+  color: @fg;
   animation: fadeIn 0.5s ease-in-out both;
 }
 
 #entry {
-  background-color: @base;
+  background-color: transparent;
+  border-radius: 8px;
 }
 
 #entry arrow {
   border: none;
-  color: @lavender;
+  color: @purple;
 }
 
 /* Selected Entry */
 #entry:selected {
-  border: 0.11em solid @lavender;
+  border: 0.11em solid @purple;
+  border-radius: 8px;
+  background-color: @terminal-black-t;
 }
 
 #entry:selected #text {
-  color: @mauve;
+  color: @blue5;
 }
 
 #entry:drop(active) {
-  background-color: @lavender!important;
+  background-color: @purple!important;
 }
