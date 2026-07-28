@@ -19,8 +19,8 @@ hl.window_rule({
     name      = "pulseaudio-volume-control",
     match     = { class = "org.pulseaudio.pavucontrol" },
     float     = true,
-    size      = { 710, 450 },
-    move      = { 570, 42 },
+    size      = { 900, 450 },
+    move      = { 375, 28 },
     immediate = true,
     animation = "popin",
 })
@@ -30,8 +30,8 @@ hl.window_rule({
     name      = "network-manager-connection-editor",
     match     = { class = "nm-connection-editor" },
     float     = true,
-    size      = { 710, 450 },
-    move      = { 570, 42 },
+    size      = { 900, 450 },
+    move      = { 375, 28 },
     immediate = true,
     animation = "popin",
 })
