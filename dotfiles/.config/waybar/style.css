@@ -4,6 +4,7 @@
   font-family: "JetbrainsMono Nerd Font";
   font-size: 8px;
   min-height: 0px;
+  color: #ffffff;
 }
 
 window#waybar {
@@ -42,7 +43,7 @@ menu {
 #pulseaudio_slider,
 #network,
 #language {
-  /* color: #161320; */
+  color: #ffffff;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 10px;
