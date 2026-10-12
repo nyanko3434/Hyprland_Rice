@@ -147,12 +147,12 @@ menu {
 }
 
 #workspaces button.occupied {
-  color: #A6E3A1;
+  color: #2d2dbc;
 }
 
 #workspaces button.active {
-  color: #89B4FA;
-  text-shadow: 0 0 4px #ABE9B3;
+  color: #5d8cd8;
+  text-shadow: 0 0 4px #5751d0;
 }
 
 #workspaces button:hover {
