@@ -17,6 +17,9 @@ hl.config({
             scroll_factor  = 0.2,
         },
     },
+    cursor = {
+        no_warps = true,  -- don't move the cursor when focus/workspace changes
+    },
 })
 
 -- Gestures
