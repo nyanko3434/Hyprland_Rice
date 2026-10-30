@@ -1,0 +1,31 @@
+diff --git a/src/modules/hyprland/workspace.cpp b/src/modules/hyprland/workspace.cpp
+index 790ab7ee..0dbfef36 100644
+--- a/src/modules/hyprland/workspace.cpp
++++ b/src/modules/hyprland/workspace.cpp
+@@ -52,14 +52,14 @@ Workspace::Workspace(const Json::Value& workspace_data, Workspaces& workspace_ma
+       m_isPersistentRule(workspace_data["persistent-rule"].asBool()),
+       m_isPersistentConfig(workspace_data["persistent-config"].asBool()),
+       m_ipc(IPC::inst()) {
+-  m_button.add_events(Gdk::BUTTON_PRESS_MASK);
++  m_button.add_events(Gdk::BUTTON_PRESS_MASK | Gdk::BUTTON_RELEASE_MASK);
+   m_button.add_events(Gdk::ENTER_NOTIFY_MASK | Gdk::LEAVE_NOTIFY_MASK);
+ 
+   m_button.signal_enter_notify_event().connect(sigc::mem_fun(*this, &Workspace::handleEnter));
+   m_button.signal_leave_notify_event().connect(sigc::mem_fun(*this, &Workspace::handleLeave));
+ 
+-  m_button.signal_button_press_event().connect(sigc::mem_fun(*this, &Workspace::handleClicked),
+-                                               false);
++  m_button.signal_button_release_event().connect(sigc::mem_fun(*this, &Workspace::handleClicked),
++                                                 false);
+ 
+   m_button.set_relief(Gtk::RELIEF_NONE);
+   if (m_workspaceManager.enableTaskbar()) {
+@@ -195,7 +195,7 @@ bool Workspace::handleLeave(GdkEventCrossing* /*event*/) {
+   return false;
+ }
+ bool Workspace::handleClicked(GdkEventButton* bt) const {
+-  if (bt->type == GDK_BUTTON_PRESS) {
++  if (bt->type == GDK_BUTTON_RELEASE) {
+     try {
+       if (kind() == WorkspaceKind::Numbered) {  // normal
+         if (m_workspaceManager.moveToMonitor()) {
