@@ -30,6 +30,7 @@ hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd(toggle_waybar))
 hl.bind(secMod  .. " + P", hl.dsp.exec_cmd(random_wallpaper))
 hl.bind(secMod  .. " + R", hl.dsp.exec_cmd(toggle_hardware_overlay))
+hl.bind("XF86Launch7", hl.dsp.exec_cmd("damx"))  -- F16
 
 -----------------------------
 -- Power / session
