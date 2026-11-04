@@ -23,9 +23,9 @@
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-//        //@hardware_start
-//        "group/hardware",
-//        //@hardware_end
+        //@hardware_start
+        "group/hardware",
+        //@hardware_end
         // "keyboard-state",
         // "sway/language",
         "battery",
